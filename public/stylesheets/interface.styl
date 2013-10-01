@@ -1,0 +1,57 @@
+#interface
+  position: absolute
+  top: 0
+  right: 0
+  z-index: 1100
+  padding-right: 10px
+  #goToPreviewButton
+    cursor: pointer
+    position: fixed
+    bottom: 40px
+    right: 40px
+    padding: 7px
+    background-color: rgba(#fff, .7)
+    a.bigOrangeButton
+      font-size: 18px
+      padding: 7px 24px
+
+  #q
+    font-size: 120%
+    margin-top: 11px
+    width: 200px
+    margin-right: 160px
+    margin-bottom: 0
+  #locationsContainer
+    position: absolute
+    top: 9px
+    right: 10px
+    label
+      display: none
+    select
+      font-size: 120%
+
+  #autocomplete
+    max-height: 600px
+    width: 200px
+    margin: 0
+    padding 0
+    overflow: auto
+    li
+      list-style-type: none
+      font-size: 13px
+      padding: 4px
+      margin: 1px
+      border-radius: 3px
+      background-color: white
+      opacity: 0.8
+      cursor: pointer
+    li:hover
+      opacity: 1
+    li.selected
+      background-color: #777
+      opacity: 1
+      color: #fff
+    li.current
+      background-color: #333
+      color: #fff
+      font-style: italic

@@ -1,0 +1,41 @@
+{
+  "name": "norxleaflet",
+  "version": "0.0.1",
+  "description": "Leaflet/Tilestache App for Norx",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js",
+    "browserify": "./node_modules/.bin/browserify --noparse jquery --noparse three -t coffeeify -e ./client/leafletapp.js | ./node_modules/.bin/uglifyjs > public/js/leafletapp.js",
+    "postinstall": "cp node_modules/leaflet/dist/leaflet.css public/stylesheets"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bengler/norx_leaflet.git"
+  },
+  "author": "Bengler AS",
+  "bugs": {
+    "url": "https://github.com/bengler/norx_leaflet/issues"
+  },
+  "dependencies": {
+    "express": "~3.3.8",
+    "jade": "*",
+    "stylus": "*",
+    "browserify-middleware": "~1.17.2",
+    "coffeeify": "~0.5.1",
+    "brfs": "0.0.7",
+    "three": "git://github.com/bjoerge/threejs-node",
+    "leaflet": "~0.6.4",
+    "jquery": "git://github.com/bjoerge/jquery-node",
+    "request": "*",
+    "events": "*",
+    "http-get": "~0.5.10",
+    "coffee-script": "~1.6.3",
+    "caching-coffeeify": "~0.2.0",
+    "browserify": "~2.32.4",
+    "uglify-js": "~2.4.0",
+    "lodash.debounce": "~2.1.0",
+    "pather": "git://github.com/bjoerge/pather#v0.1-beta"
+  }
+}

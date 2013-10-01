@@ -1,0 +1,9 @@
+extends layout
+block content
+  #map
+
+block interface
+  #interface
+    p.version Norx Leaflet v#{version}
+    input#q(type='search', autocomplete='off', placeholder='Find place')
+    ul#autocomplete

@@ -1,0 +1,13 @@
+{
+  "tilesUrl": "http://norx:81/blackwhite/{z}/{x}/{y}.png",
+  "imageUrl": "http://norx:80",
+  "elasticSearch": {
+    "server": {
+      "host": "norx",
+      "port": 9200
+    }
+  },
+  "leaflet": {
+    "attribution": "<a href=\"http://mapnik.org/\" target=\"_blank\" target=\"_blank\">Mapnik</a> | <a href=\"http://postgis.net/\" target=\"_blank\">PostGIS</a> | <a href=\"http://www.gdal.org/\" target=\"_blank\">GDAL</a> | <a href=\"http://tilestache.org/\" target=\"_blank\">TileStache</a> | Map data: CCBY 3.0; Kartverket, Imagery: Bengler CCBY 3.0 <3"
+  }
+}
