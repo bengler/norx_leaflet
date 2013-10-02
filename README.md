@@ -1,7 +1,7 @@
 Norx Leaflet
 ============
 
-A little app to confirm that your Norx installation is working.
+A little app to confirm that your [Norx](https://github.com/bengler/norx) installation is working.
 
 ## Prerequisites
 
